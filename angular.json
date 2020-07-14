@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "uriels-projects"
+    }
+  },
+  "defaultProject": "uriels-projects",
+  "cli": {
+    "analytics": "5cb77d57-49b9-448f-ad98-c93ce4af9b0b"
+  }
 }
