@@ -6,8 +6,8 @@ import {
    debounceTime, distinctUntilChanged, switchMap
  } from 'rxjs/operators';
 
-import { Project } from '../project';
-import { ProjectService } from '../project.service';
+ import { Project } from './../Project';
+ import { ProjectService } from '../project.service';
 
 @Component({
   selector: 'app-project-search',
