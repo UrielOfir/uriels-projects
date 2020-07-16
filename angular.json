@@ -117,6 +117,14 @@
               "devServerTarget": "uriels-projects:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/uriels-projects",
+            "netlifyToken": "",
+            "siteId": "e90f2fe0-7fa3-4ec6-bad5-626207c08545"
+          }
         }
       }
     }
